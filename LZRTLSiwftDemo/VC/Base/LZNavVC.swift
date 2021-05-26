@@ -8,8 +8,6 @@
 import UIKit
 import os_object
 
-private let onceToken = "Method Swizzling"
-
 class LZNavVC: UINavigationController {
 
     override func viewDidLoad() {

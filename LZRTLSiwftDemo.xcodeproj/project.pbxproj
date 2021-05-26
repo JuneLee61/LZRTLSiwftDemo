@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51FE991C05FA9A465467C0ED /* Pods_LZRTLSiwftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF0BE33E7AA62FA241A6DEB /* Pods_LZRTLSiwftDemo.framework */; };
 		F404109525622656003380C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F404109425622656003380C3 /* AppDelegate.swift */; };
 		F404109925622656003380C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F404109825622656003380C3 /* ViewController.swift */; };
 		F404109E25622658003380C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F404109D25622658003380C3 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 		F40410C4256250A4003380C3 /* UIImage+RTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40410C3256250A4003380C3 /* UIImage+RTL.swift */; };
 		F40410C725625173003380C3 /* UIView+RTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40410C625625173003380C3 /* UIView+RTL.swift */; };
 		F40410CA2562532D003380C3 /* UILabel+RTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40410C92562532D003380C3 /* UILabel+RTL.swift */; };
+		F40864472579D7660089A361 /* ConnectApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40864462579D7660089A361 /* ConnectApi.swift */; };
 		F45BE2BB256360480089207A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BE2BA256360480089207A /* HeaderView.swift */; };
 		F45BE2BF256360570089207A /* ProfileControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BE2BE256360570089207A /* ProfileControl.swift */; };
 		F45BE2C2256360650089207A /* ProfileSegView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BE2C1256360650089207A /* ProfileSegView.swift */; };
@@ -31,10 +33,10 @@
 		F477630D25778A4B00EBAC57 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F477630625778A4B00EBAC57 /* README.md */; };
 		F477630E25778A4B00EBAC57 /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = F477630725778A4B00EBAC57 /* report.xml */; };
 		F477630F25778A4B00EBAC57 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = F477630825778A4B00EBAC57 /* Gemfile.lock */; };
-		F477631225778A8200EBAC57 /* ConnectApi in Resources */ = {isa = PBXBuildFile; fileRef = F477631125778A8100EBAC57 /* ConnectApi */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DF0BE33E7AA62FA241A6DEB /* Pods_LZRTLSiwftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZRTLSiwftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BF6653E1BE0079B443E8B4 /* Pods-LZRTLSiwftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZRTLSiwftDemo.debug.xcconfig"; path = "Target Support Files/Pods-LZRTLSiwftDemo/Pods-LZRTLSiwftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B6398AAEF0DD02D4D1A464CE /* Pods-LZRTLSiwftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZRTLSiwftDemo.release.xcconfig"; path = "Target Support Files/Pods-LZRTLSiwftDemo/Pods-LZRTLSiwftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F404109125622656003380C3 /* LZRTLSiwftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZRTLSiwftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,7 @@
 		F40410C3256250A4003380C3 /* UIImage+RTL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+RTL.swift"; sourceTree = "<group>"; };
 		F40410C625625173003380C3 /* UIView+RTL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RTL.swift"; sourceTree = "<group>"; };
 		F40410C92562532D003380C3 /* UILabel+RTL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+RTL.swift"; sourceTree = "<group>"; };
+		F40864462579D7660089A361 /* ConnectApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectApi.swift; sourceTree = "<group>"; };
 		F45BE2BA256360480089207A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		F45BE2BE256360570089207A /* ProfileControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileControl.swift; sourceTree = "<group>"; };
 		F45BE2C1256360650089207A /* ProfileSegView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSegView.swift; sourceTree = "<group>"; };
@@ -63,7 +66,6 @@
 		F477630625778A4B00EBAC57 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F477630725778A4B00EBAC57 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
 		F477630825778A4B00EBAC57 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
-		F477631125778A8100EBAC57 /* ConnectApi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ConnectApi; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51FE991C05FA9A465467C0ED /* Pods_LZRTLSiwftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +83,7 @@
 		06200B2FCA0952CC636ACD13 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DF0BE33E7AA62FA241A6DEB /* Pods_LZRTLSiwftDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,7 +179,7 @@
 		F47762FF2577850B00EBAC57 /* Http */ = {
 			isa = PBXGroup;
 			children = (
-				F477631125778A8100EBAC57 /* ConnectApi */,
+				F40864462579D7660089A361 /* ConnectApi.swift */,
 			);
 			path = Http;
 			sourceTree = "<group>";
@@ -259,7 +263,6 @@
 				F477630A25778A4B00EBAC57 /* Pluginfile in Resources */,
 				F477630E25778A4B00EBAC57 /* report.xml in Resources */,
 				F40410A125622658003380C3 /* LaunchScreen.storyboard in Resources */,
-				F477631225778A8200EBAC57 /* ConnectApi in Resources */,
 				F404109E25622658003380C3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +331,7 @@
 				F404109525622656003380C3 /* AppDelegate.swift in Sources */,
 				F45BE2C2256360650089207A /* ProfileSegView.swift in Sources */,
 				F45BE2C5256360720089207A /* ProfileCell.swift in Sources */,
+				F40864472579D7660089A361 /* ConnectApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BV3EPFW3GV;
 				INFOPLIST_FILE = LZRTLSiwftDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,7 +495,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BV3EPFW3GV;
 				INFOPLIST_FILE = LZRTLSiwftDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -24,7 +24,6 @@ class HeaderView: UIView {
         
         let iconWidth = 65.0
         iconImage.image = UIImage.init(named: "Profile_headPortrait_female")
-        R.
         iconImage.layer.cornerRadius = CGFloat(iconWidth / 2.0)
         self.addSubview(iconImage)
         iconImage.snp.makeConstraints { (make) in

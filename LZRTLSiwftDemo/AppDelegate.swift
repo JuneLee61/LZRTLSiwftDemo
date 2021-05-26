@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        self.isRTL = true
+        self.isRTL = false
         if self.isRTL {
             UIView.appearance().semanticContentAttribute = .forceRightToLeft
             UISearchBar.appearance().semanticContentAttribute = .forceRightToLeft

@@ -41,6 +41,7 @@ class MainVC: UIViewController {
         test2.resetFrameToFitRTL()
         test3.resetFrameToFitRTL()
         
+        ConnectApi.shared.getDevices()
 
     }
 
