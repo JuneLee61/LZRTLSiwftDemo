@@ -43,6 +43,8 @@ class MainVC: UIViewController {
         
         ConnectApi.shared.getDevices()
 
+        let aa = 1 + 2
+        print("aa: \(aa)")
     }
 
 }
