@@ -45,6 +45,9 @@ class MainVC: UIViewController {
 
         let aa = 1 + 2
         print("aa: \(aa)")
+        
+        let aa = 2 + 3
+        print("aa1: \(aa)")
     }
 
 }

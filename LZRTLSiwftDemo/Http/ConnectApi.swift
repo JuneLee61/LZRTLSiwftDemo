@@ -40,7 +40,7 @@ class ConnectApi {
         
         self.sessionManager.request(url, method: .get, parameters: params, encoding: JSONEncoding.default, headers: header).responseJSON(completionHandler: { (response) in
                 
-            print("\(response.data)")
+            print("\(String(describing: response.data))")
         })
     }
     
