@@ -1,0 +1,11 @@
+version: "1"
+plugins:
+  swiftlint:
+    enabled: true
+#    exclude_paths:
+#        -
+  tailor:
+    enabled: true
+    
+#exclude_patterns:
+#    -

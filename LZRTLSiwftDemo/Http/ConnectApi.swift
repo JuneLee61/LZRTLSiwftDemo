@@ -63,6 +63,12 @@ class ConnectApi {
         let signedJWT = try? myJWT.sign(using: jwtSigner)
         print("\(String(describing: signedJWT))")
         
+        let aa = 1 + 2
+        print("aa: \(aa)")
+        
+        let aa = 2 + 3
+        print("aa1: \(aa)")
+        
         return signedJWT!
         
 //        let jwtVerifier = JWTVerifier.es256(publicKey: data!)
